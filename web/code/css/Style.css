@@ -1,0 +1,445 @@
+/*All validation error message*/
+
+#error{ 
+    color: #FF0000;
+}
+
+#errorLogin{
+    margin-left: 40px;
+    color: #FF0000;
+}
+
+#updateConfirm{
+    margin-left: 400px;
+    color: #FF0000;
+}
+
+/*Searchform*/
+
+
+#searchform{
+    position: absolute;
+    margin-left: 770px;
+    margin-top: -70px;
+    font-size: 36px;
+    border-radius: 10px;
+    width: 400px;
+}
+
+#searchsubmit{
+    position: absolute;
+    margin-left: 1190px;
+    font-size: 36px;
+    margin-top: -68px;
+    border-radius: 10px;
+    width: 130px;
+}
+
+#output{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 770px;
+    color: #777;
+    font-size: 36px;
+}
+
+#searchform, #searchsubmit{
+    height: 65px;
+}
+
+.sidebar {
+  font-family: monaco, Consolas, 'Lucida Console', monospace;
+  list-style-type:none;
+  background-color:#333;
+  width:230px;
+  height:100%;
+  top:0;
+  bottom:0;
+  left:0;
+  text-align:left;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  transition:1s ease;
+}
+
+.sidebar a {
+  text-decoration:none;
+  color:white;
+  transition:1s ease;
+}
+
+.sidebar li, #devloper {
+  text-indent: 20px;
+  line-height: 40px;
+  transition:0.5s ease;
+}
+
+.sidebar li:hover {
+  background-color:#777;
+  cursor:pointer;
+  text-indent: 30px;
+}
+
+.sidebar > .menubar {
+    height: 65px;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+#developer{
+    font-size: small;
+    margin-top: 670px;
+    text-align: center;
+}
+
+#slider {
+    margin-left: auto;
+    margin-right: auto;
+    width: 720px;
+    height: 400px;
+    overflow: hidden;
+}
+
+#slider .slides {
+    display: block;
+    width: 6000px;
+    height: 400px;
+    margin-left: 200px;
+    padding: 0;
+}
+
+#slider .slide {
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    width: 720px;
+    height: 400px;
+}
+
+
+/*Loggedin*/
+
+#userlogin{
+     position: absolute;
+}
+
+/*Userpage*/
+
+/*#idLabel, #nameLabel, #unameLabel, #emailLabel, #passwordLabel, #submitbtn{
+	display: none;		
+}
+
+#UpID, #Uname, #Uusername, #Uemail, #Upassword{
+	display: none;		
+}*/
+
+
+/*Loginpage*/
+
+.loginBox {
+  margin: 30px auto;
+  width: 400px;
+  background-color: white; 
+}
+ 
+.login {
+  position: relative;
+  margin: 0 auto;
+  padding: 20px 20px 20px;
+  width: 270px;
+}
+
+#loginTitle{
+    position: relative;
+    margin-left: 90px;
+    color: #505050 ;
+}
+
+#loginuser{
+    border-radius: 3px;
+}
+
+#loginpass{
+    position: relative;
+    margin-left: 3px;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+#loginBtn{
+    position: relative;
+    margin-left: 203px;
+    margin-top: 10px;
+    background: #00CCFF;
+    color: #FFFFFF; 
+    border-radius: 3px;
+}
+
+#signUpBtn{
+    position: relative;
+    margin-left: 105px;
+    color: #B0B0B0;
+    text-decoration: none;
+}
+
+#signUpBtn:hover
+{
+    color: #505050;
+    text-decoration: underline;
+}
+     
+#signUpBtn:active{
+    color: #505050;
+    text-decoration: underline;
+}
+
+#loginLabel1, #loginLabel2{
+    color: #505050;
+}
+
+.recoverBox {
+  margin: 50px auto;
+  width: 400px;
+  background-color: white; 
+}
+ 
+.recover {
+  position: relative;
+  margin: 0 auto;
+  padding: 20px 20px 20px;
+  width: 270px;
+}
+
+#recoverTitle{
+    cursor: pointer;
+    position: relative;
+    margin-left: 50px;
+    font-size: medium;
+    color: #505050 ;
+}
+
+#recoverBtn{
+    position: relative;
+    margin-left: 203px;
+    background: #00CCFF;
+    color: #FFFFFF; 
+    border-radius: 3px;
+}
+
+#recoverlabel, #forgetpass, #recoverLabel1{
+   color: #505050 ; 
+}
+
+#forgetuser, #forgetemail{
+    border-radius: 3px;
+}
+
+#forgetemail{
+    margin-top:10px;
+    margin-left: 25px;
+}
+
+#recoverlabel, #forgetemail, #recoverLabel1, #forgetuser, #recoverBtn{
+    display:none;
+}
+
+
+/*Registrationpage*/
+
+.regBox {
+  margin: 30px auto;
+  width: 400px;
+  background-color: white; 
+}
+ 
+.reg {
+  position: relative;
+  margin: 0 auto;
+  padding: 20px 20px 20px;
+  width: 270px;
+}
+
+#regTitle{
+    color: #505050 ;
+}
+
+#regLabel1, #regLabel2, #regLabel3, #regLabel4, #regLabel5, #regLabel6, #regLabel7, #regLabel8{
+    color: #505050;
+}
+
+#regUser, #regEmail, #regPassword, #regMale, #regContact{
+    color: #505050;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+#regName{
+    border-radius: 3px;
+    color: #505050;
+    margin-left: 25px;
+}
+
+#regEmail{
+    margin-left: 26px;
+}
+
+#regPassword{
+    margin-left: 4px;
+}
+
+#conPassword{
+    margin-left: 5px;
+    border-radius: 3px;
+}
+
+#regSName{
+    margin-top: 10px;
+    margin-left: 7px;
+    border-radius: 3px;
+}
+
+#regContact{
+    margin-left: 7px;
+}
+
+#regBtn{
+    position: relative;
+    margin-left: 188px;
+    margin-top: 10px;
+    background: #00CCFF;
+    color: #FFFFFF; 
+    border-radius: 3px;
+    
+}
+
+#signInBtn{
+    position: relative;
+    margin-left: 115px;
+    color: #B0B0B0;
+    text-decoration: none;
+}
+
+#signInBtn:hover
+{
+    color: #505050;
+    text-decoration: underline;
+}
+     
+#signInBtn:active{
+    color: #505050;
+    text-decoration: underline;
+}
+
+/*Aboutuspage*/
+
+.aboutBox { 
+  margin: 70px auto;
+  width: 700px;
+  background-color: white; 
+}
+ 
+.title {
+  position: relative;
+  margin: 0 auto;
+  padding: 20px 20px 20px;
+  width: 500px;
+}
+
+#workShopTitle{
+    font-family: Georgia;
+    text-align: center;
+    color: #333;
+}
+
+#aboutText{
+    font-family: Georgia;
+    font-size: medium;
+    color: #333;
+    
+}
+
+/*CourseView*/
+
+.courseBox{
+    margin: 70px auto;
+    width: 700px;
+    background-color: white; 
+}
+
+.course {
+  position: relative;
+  margin: 0 auto;
+  padding: 20px 20px 20px;
+  width: 500px;
+}
+
+#courseTitle{
+    font-family: Georgia;
+    text-align: center;
+    color: #333;
+}
+
+/*UserPage*/
+
+.userBox{
+    margin: 70px auto;
+    width: 700px;
+    background-color: white; 
+}
+
+.user {
+  position: relative;
+  margin: 0 auto;
+  padding: 20px 20px 20px;
+  width: 500px;
+}
+
+#UpID{
+    display: none;
+}
+
+#review{
+    display:none;
+}
+
+/*Admin page*/
+
+#add{
+    display:none;
+}
+
+#delete{
+    display:none;
+}
+
+/*updatepage*/
+
+.upBox{
+    margin: 70px auto;
+    width: 500px;
+    background-color: white; 
+}
+
+.Up { 
+  position: relative;
+  margin: 0 auto;
+  padding: 20px 140px 20px;
+  width: 500px;
+}
+
+/*delete*/
+
+.delBox{
+    margin: 70px auto;
+    width: 500px;
+    background-color: white; 
+}
+
+.del { 
+  position: relative;
+  margin: 0 auto;
+  padding: 20px 140px 20px;
+  width: 500px;
+}
